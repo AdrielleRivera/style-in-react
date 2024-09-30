@@ -1,0 +1,9 @@
+import React from 'react';
+function MyComponent() {
+  return (
+    <div style={{ backgroundColor: 'lightblue', padding: '20px', borderRadius: '5px' }}>
+      <p style={{ color: 'white', fontSize: '18px' }}>This is a paragraph with inline styles.</p>
+    </div>
+  );
+}
+export default MyComponent;
